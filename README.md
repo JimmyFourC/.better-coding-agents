@@ -35,18 +35,18 @@ Create the OpenCode directories if they don't exist and copy all files from @OPE
 
 ```bash
 # Create directories if they don't exist
-mkdir -p ~/.opencode/agent
-mkdir -p ~/.opencode/command
-mkdir -p ~/.opencode/themes
+mkdir -p ~/.config/opencode/agent
+mkdir -p ~/.config/opencode/command
+mkdir -p ~/.config/opencode/themes
 
 # Copy agent files
-cp -u ./.better-coding-agents/OPENCODE_ASSETS/agent/*.md ~/.opencode/agent/
+cp -u ./.better-coding-agents/OPENCODE_ASSETS/agent/*.md ~/.config/opencode/agent/
 
 # Copy command files
-cp -u ./.better-coding-agents/OPENCODE_ASSETS/command/*.md ~/.opencode/command/
+cp -u ./.better-coding-agents/OPENCODE_ASSETS/command/*.md ~/.config/opencode/command/
 
 # Copy theme files
-cp -u ./.better-coding-agents/OPENCODE_ASSETS/themes/*.json ~/.opencode/themes/
+cp -u ./.better-coding-agents/OPENCODE_ASSETS/themes/*.json ~/.config/opencode/themes/
 ```
 
 ### 2. Setup Cursor Configuration
